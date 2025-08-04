@@ -2,6 +2,7 @@ version: "3.4"
 
 services:
   ib-gateway:
+    platform: linux/amd64
     restart: always
     build:
       context: ./stable
