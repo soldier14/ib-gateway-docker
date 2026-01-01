@@ -6,7 +6,7 @@ on:
 
 jobs:
   ci:
-    uses: quantquantquant/platform-ci/.github/workflows/service-ci.yml@master
+    uses: quantquantquant/platform-ci/.github/workflows/service-ci.yml@main
     with:
       working_directory: .
       build_cmd: |
